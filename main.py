@@ -10,15 +10,15 @@ from datetime import datetime
 import random
 
 from defs import getUrl, getcards, phone
-API_ID =  11676609
-API_HASH = 'abcs1283738'
-SEND_CHAT = '@YourChannelUsername'
+API_ID =  29222281
+API_HASH = '5737e135046088f3a6fef53fe02cb836'
+SEND_CHAT = '@lolscarpper'
 
 client = TelegramClient('HEHEHE', API_ID, API_HASH)
 ccs = []
 
 chats  = [
-    '@CHANNEL_USERNAME',
+    '@errorscrapper',
 ]
 
 with open('cards.txt', 'r') as r:
